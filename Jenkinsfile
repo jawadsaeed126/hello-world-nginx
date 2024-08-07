@@ -6,6 +6,7 @@ pipeline {
             steps {
                 script {
                     // Build the Docker image
+                    sh 'docker ps'
                     sh 'docker build -t my-nginx-image .'
                 }
             }

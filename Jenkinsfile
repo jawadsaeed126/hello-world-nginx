@@ -20,7 +20,7 @@ pipeline {
               path: /var/run/docker.sock    
         '''
     }
-    
+    }
     stages {
         stage('Build-Docker-Image') {
       steps {

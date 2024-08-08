@@ -9,6 +9,7 @@ pipeline {
 
               // Running buildah in rootless mode
               //      sh 'buildah --storage-driver vfs bud --isolation chroot -t test -f Dockerfile .'
+              
             
           }
         }      
